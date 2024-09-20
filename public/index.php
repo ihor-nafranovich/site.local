@@ -15,7 +15,7 @@ if (isset($_SESSION['identity'])) {
         <title>Home page</title>
     </head>
     <body>
-        <h1>Стартовая страница</h1>
+        <h1>Стартовая страница...</h1>
         <?php if ($identity==null): ?>
         <a href="login.php">Sign in</a>
         <?php else: ?>
