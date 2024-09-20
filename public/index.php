@@ -12,10 +12,10 @@ if (isset($_SESSION['identity'])) {
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Home page</title>
+        <title>my site</title>
     </head>
     <body>
-        <h1>Стартовая страница...</h1>
+        <h1>Стартовая страница..</h1>
         <?php if ($identity==null): ?>
         <a href="login.php">Sign in</a>
         <?php else: ?>
