@@ -28,14 +28,12 @@ if (isset($_SESSION['identity'])) {
         <p><b>Ваше имя:</b><br>
         </p>
         <input type="text" size="40" name="nick"autofocus>
-        </p>
         <p><b>Вы первый раз на этой странице?</b><br>
         <p><select>
                 <optgroup label="Ваш ответ">
                     <option value="c1">Первый</option>
                     <option value="c2">Не первый</option>
             </select></p>
-        </p>
         <p>Комментарий<br>
             <textarea name="comment" cols="40" rows="3"></textarea></p>
             <p><input type="submit" value="Отправить">
