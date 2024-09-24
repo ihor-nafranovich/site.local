@@ -38,7 +38,7 @@ if ($_SERVER['REQUEST_METHOD']=='POST') {
     <head>
         <title>Login page</title>
     </head>
-    <body>
+    <body bgcolor="#8a2be2">
         <h1>Sign in</h1>
         <?php if ($submitted && !$authenticated): ?>
             <div class="alert">
